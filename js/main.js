@@ -1,4 +1,4 @@
-// Definimos algunos productos predefinidos
+// Lista de productos por defecto
 const productos = [
     { id: 1, nombre: "Camiseta", precio: 7000 },
     { id: 2, nombre: "Pantalones", precio: 15000 },
@@ -6,7 +6,7 @@ const productos = [
     { id: 4, nombre: "Sombrero", precio: 3000 }
 ];
 
-// Inicializamos el carrito como un array vacío
+// array carrito vacio
 const carrito = [];
 
 // Función para mostrar los productos disponibles
@@ -98,7 +98,7 @@ function buscarProductoEnCarrito() {
     }
 }
 
-// Función principal para manejar las interacciones con el usuario
+// Función para el menú de interacción
 function interactuarConUsuario() {
     let opcion;
     do {
